@@ -8,19 +8,19 @@ $(document).ready(function() {
 
 	var emOne = Math.floor(Math.random() * 12) + 1; 
 		console.log("Gem 1: " + emOne); 
-		$("#img1").html("<img src=" + "/assets/images/Sonic_(Ring).png" + " value=" + emOne + ">"); 
+		$("#img1").html("<img src=" + "assets/images/Sonic_(Ring).png" + " value=" + emOne + ">"); 
 
 	var emTwo = Math.floor(Math.random() * 12) + 1; 
 		console.log("Gem 2: " + emTwo); 
-		$("#img2").html("<img src=" + "/assets/images/Chaos_Emerald_(Orange).png" + " value=" + emTwo + ">"); 
+		$("#img2").html("<img src=" + "assets/images/Chaos_Emerald_(Orange).png" + " value=" + emTwo + ">"); 
 
 	var emThree = Math.floor(Math.random() * 12) + 1; 
 		console.log("Gem 3: " + emThree); 
-		$("#img3").html("<img src=" + "/assets/images/Choas_Emerald_(Green).png" + " value=" + emThree + ">");
+		$("#img3").html("<img src=" + "assets/images/Choas_Emerald_(Green).png" + " value=" + emThree + ">");
 	
 	var emFour = Math.floor(Math.random() * 12) + 1; 
 		console.log("Gem 4: " + emFour); 
-		$("#img4").html("<img src=" + "/assets/images/Choas_Emerald_(Pink).png" + " value=" + emFour + ">");
+		$("#img4").html("<img src=" + "assets/images/Choas_Emerald_(Pink).png" + " value=" + emFour + ">");
 		
 	var wins = 0; 
 		console.log("wins: " + wins); 
@@ -41,19 +41,19 @@ $(document).ready(function() {
 
 		emOne = Math.floor(Math.random() * 12) + 1;  
 			console.log("Gem 1: " + emOne); 
-		$("#img1").html("<img src=" + "/assets/images/Sonic_(Ring).png" + " value=" + emOne + ">"); 
+		$("#img1").html("<img src=" + "assets/images/Sonic_(Ring).png" + " value=" + emOne + ">"); 
 
 		emTwo = Math.floor(Math.random() * 12) + 1; 
 			console.log("Gem 2: " + emTwo); 
-		$("#img2").html("<img src=" + "/Users/user/Desktop/project/Chaos_Emerald_(Orange).png" + " value=" + emTwo + ">"); 
+		$("#img2").html("<img src=" + "assets/images/Chaos_Emerald_(Orange).png" + " value=" + emTwo + ">"); 
 
 		emThree = Math.floor(Math.random() * 12) + 1; 
 			console.log("Gem 3: " + emThree); 
-		$("#img3").html("<img src=" + "/Users/user/Desktop/project/Choas_Emerald_(Green).png" + " value=" + emThree + ">");
+		$("#img3").html("<img src=" + "assets/images/Choas_Emerald_(Green).png" + " value=" + emThree + ">");
 	
 		emFour = Math.floor(Math.random() * 12) + 1; 
 			console.log("Gem 4: " + emFour); 
-		$("#img4").html("<img src=" + "/Users/user/Desktop/project/Choas_Emerald_(Pink).png" + " value=" + emFour + ">");
+		$("#img4").html("<img src=" + "assets/images/Choas_Emerald_(Pink).png" + " value=" + emFour + ">");
 
 		$("img").on("click", function () {
 			var newScore = score += parseInt($(this).attr("value")); 
